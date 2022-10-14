@@ -1,13 +1,18 @@
+<?php
+    session_start();
+    $_SESSION;
+?>
 <!DOCTYPE html>
 <html>
     <head> 
         <title>
-        This is a trial
+        My website
         </title>
     </head>
 <body>
-<?php
-echo "Hello guys how are you ?";
-?>
+<a href="logout.php">Logout</a>
+<h1>This is the Index page</h1>
+<br>
+Hello, Username.
 </body>
 </html>
